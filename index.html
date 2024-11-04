@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="/script/script.js"></script> 
+
+</head>
+<body>
+    <main>
+        <div class="tabulka">
+                <h1>Vlož svůj příspevěk</h1>
+                <input type="text" placeholder="Napiš něco..." id="searchbar"/>
+                <div button>
+                    <button type="button">Odeslat</button>
+                </div>
+        </div>
+    </main>
+
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                document.getElementById('message').innerHTML =
+                    'The page has finished loading! After 5 second';
+            }, 5000);
+        };
+    </script>
+</body>
+</html>

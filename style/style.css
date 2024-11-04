@@ -1,0 +1,77 @@
+body{
+    background-color:gainsboro
+}
+
+
+
+h1{
+    color: rgb(0, 81, 255);
+    font-family: "RM Neue",sans-serif;
+}
+
+.tabulka {
+    margin: auto;
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+#searchbar{
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        color: #212529;
+        background-color: #fff;
+}
+    
+
+
+
+
+  button {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue",sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 12px;
+    padding: 10px 11px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  button:active {
+    background-color: #006AE8;
+  }
+  
+  button:hover {
+    background-color: #1C84FF;
+  }
